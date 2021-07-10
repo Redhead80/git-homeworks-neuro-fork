@@ -19,12 +19,12 @@
 
 1. Сделал форк репозитория [по ссылке](https://github.com/netology-code/git-homeworks-neuro-fork) на github'е; 
 2. Скачал [архив изменений](https://github.com/netology-code/git-homeworks/blob/master/remote/src/neuro-push.zip) по умолчанию в папку загрузки;
-3. Распаковал архив, переименовал в  Repo_for_Push_3.1 чтобы небыло пробелов а то gitbash ругается;
-4. Запустил gitbash, командой 'cd Repo_for_Push_3.1' перешёл в данный репозиторий;
-5. Связал локальный репозиторий Repo_for_Push_3.1 с форком репозитория git-homeworks-neuro-fork на github'е командой 'git remote add git-homeworks-neuro-fork https://github.com/Redhead80/git-homeworks-neuro-fork.git' (git запрашивал Логин и Пароль);
-6. Выполнил команду git push --set-upstream git-homeworks-neuro-fork master, соответственно произошёл конфликт);
-7. Выполнил команду git pull  git-homeworks-neuro-fork master, gitbash указал на конфликт: CONFLICT (add/add): Merge conflict in js/app.js;
-8. Открыл файл app.js программой VS Code, подредактировал этот файл (VS Code решает эту проблему автоматически, что очень удобно.) Сохранил файл;
-9. Отправил сделанные изменения в удалённый репозиторий на github командой git push  git-homeworks-neuro-fork master.
-10. Отправил ссылку на этот репозитрий в дз
+3. Распаковал архив, переименовал в  *Repo_for_Push_3.1* чтобы небыло пробелов а то gitbash ругается;
+4. Запустил gitbash, командой `cd Repo_for_Push_3.1` перешёл в данный репозиторий;
+5. Связал локальный репозиторий *Repo_for_Push_3.1* с форком репозитория *git-homeworks-neuro-fork* на github'е командой `git remote add git-homeworks-neuro-fork https://github.com/Redhead80/git-homeworks-neuro-fork.git` (git запрашивал Логин и Пароль);
+6. Выполнил команду `git push --set-upstream git-homeworks-neuro-fork master`, (соответственно произошёл конфликт);
+7. Выполнил команду `git pull  git-homeworks-neuro-fork master`, gitbash указал на конфликт: CONFLICT (add/add): Merge conflict in js/app.js;
+8. Открыл файл *app.js* программой VS Code, подредактировал этот файл (VS Code решает эту проблему автоматически, что очень удобно). Сохранил файл;
+9. Отправил сделанные изменения в удалённый репозиторий на github командой `git push  git-homeworks-neuro-fork master`.
+10. Отправил ссылку на этот репозитрий в дз.
 
